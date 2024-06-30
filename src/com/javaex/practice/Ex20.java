@@ -16,21 +16,41 @@ public class Ex20 {
 		(y 인경우 다시 게임이 시작됩니다.)
 		*개발시 랜덤하게 생성된 값을 출력해서 테스트 하면 편리합니다.
 		 */
-		//모르겠음 하다말았음
+		//참고했음 
 		
 		Scanner sc = new Scanner(System.in);
 		
 		final int score = 29;
-		boolean game = true;
+		
 		
 		System.out.println("========================");
 		System.out.println("    [숫자맞추기게임 시작]   ");
 		System.out.println("========================");	
-		System.out.print(">>");
-		int num = sc.nextInt();
-
+	
 		
+		while(true) {
+			System.out.print(">>");
+			int num = sc.nextInt();
+			if(score> num) {
+				System.out.println("더 높게");
+			}else if (score< num) {
+				System.out.println("더 낮게");
+			}else {
+				System.out.println("맞았습니다.");
+				break;
+			}
+		}
+
+		System.out.println("게임을 종료하시겠습니까? (y/n) >>");
+		char end =sc.next().charAt(0);
+		if(end=='y') {
+			System.out.println("==============");
+			System.out.println("      [숫자맞추기게임 종료]");
+			System.out.println("==============");
+			
+		}
+	
 		sc.close();
 	}
-
 }
+
