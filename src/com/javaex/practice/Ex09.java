@@ -11,6 +11,11 @@ public class Ex09 {
 				System.out.print(i+j);
 				System.out.print("\t");
 			}
+			/*
+			 for(int j=i; j<i+10 ; j++){
+				System.out.print(j + "\t");
+			}	
+			 */
 			System.out.println("");
 		}
 

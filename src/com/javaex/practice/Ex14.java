@@ -23,6 +23,19 @@ public class Ex14 {
 		} System.out.println("");
 		System.out.println("합계: " + r);
 		
+		/*
+		 for(int i=1; i<=num; i++) {
+			r = r + i;
+			if(i==num) {
+				System.out.println(i);
+			}else {
+				System.out.print(i + "+");
+			}
+			
+		}
+		System.out.println("합계: " + r);
+		 */
+		
 		
 		sc.close();
 	

@@ -29,6 +29,24 @@ public class Ex18 {
 			System.out.println("");
 		}
 		
+		/*
+		 for(int y=1; y<=inputNum; y++) {
+
+			for(int x=1; x<=inputNum+1-y; x++) {
+				System.out.print("*");
+			}
+			System.out.println("");
+			
+		}
+		
+		for(int y=1; y<=inputNum-1; y++) {
+
+			for(int x=1; x<=y+1; x++) {
+				System.out.print("*");
+			}
+			System.out.println("");
+		}
+		 */
 		
 		sc.close();
 	}
